@@ -1,0 +1,11 @@
+{
+  "name": "goiteens-lab",
+  "version": "1.0.0",
+  "description": "team project goiteens-lab",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Unique",
+  "license": "MIT"
+}
