@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lexend', sans-serif;
+    text-decoration: none;
+}
+
+.container {
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.projects {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-left: 40px;
+}
+
+.projects__titles {
+    margin-bottom: 40px;
+}
+
+.projects__titles-sub {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #717DA7;
+    margin-bottom: 12px;
+}
+
+.projects__titles-sub::before {
+    display: block;
+    content: '—';
+    position: relative;
+    right: 20px;
+    background-size: contain;
+    width: 32px;
+    height: 1px;
+}
+
+.projects__titles-main {
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #31292F;
+    position: relative;
+}
+
+.collection__list-proj {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.collection__list-item {
+    width: 340px;
+    flex-wrap: wrap;
+    margin-right: 40px;
+    margin-bottom: 40px;
+
+}
+
+.collection__list-item h3 {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #31292F;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.collection__list-item button {
+    background-color: #5962CE;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    border: none;
+    color: #D4E2DD;
+    border-radius: 50px;
+    width: 193px;
+    height: 46px;
+}
+
+.collection__list-item button:hover {
+    background-color: #D4E2DD;
+    color: #5962CE;
+}
+
+.collection__list-item img:hover {
+    transform: scale(1.15);
+}
+
+.collection__list-item img {
+    transition: ease 0.5s;
+}
+
+.creator-info {
+    margin-top: 24px;
+}
+
+.creator__name {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #31292F;
+}
+
+.creator-city {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #717DA7;
+}
