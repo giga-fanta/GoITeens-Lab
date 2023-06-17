@@ -13,13 +13,34 @@
 </head>
 
 <body>
+    <div class="start">
+
+        <header>
+            <div class="conteiner">
+                <div class="header_inner">
+                    <a class="logo" href="#">
+                        <img src="img/logo.png" alt="logo" class="logo_image"><span>GOITEENS-LAB</span>
+                    </a>
+                    <nav class="nav">
+                        <a class="nav_link" href="#">About Us</a>
+                        <a class="nav_link" href="#">Projects</a>
+                        <a class="nav_link" href="#">Events</a>
+                        <a class="log_in" href="#">Log In</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="start_inner">
+            <h1 class="big_title">Місце для інвестування в цікаві проєкти</h1>
+            <h2 class="small_title">Все для того щоб розуміти у який проєкт інвестувати та на якому можна заробити</h2>
+        </div>
+    </div>
+
     <main class="main">
         <section class="projects container">
             <div class="projects__titles ">
                 <p class="projects__titles-sub">Наші рекомендації</p>
                 <h2 class="projects__titles-main">Проєкти</h2>
-            </div>
-            <div class="projects__collection-buttons">
             </div>
             <div class="projects__collection">
                 <div class="collection__list-proj">
@@ -83,56 +104,69 @@
                     </ul>
                 </div>
         </section>
-        <!-- <section class="events">
+        <section class="events container">
             <div class="events__titles">
                 <p class="events__titles-sub">Найкращі Події</p>
                 <h2 class="events__titles-main">Події</h2>
             </div>
             <div class="events__collection">
-                <div class="events__collection-buttons">
-                    <button class="events__collection-previous">&#60;</button>
-                    <button class="events__collection-next">&#62;</button>
-                </div>
-                <ul class="collection__list">
-                    <li class="collection__list-item">
-                        <img src="img/grey-2.jpg" alt="There could be your project">
+                <div class="collection__list">
+                    <div class="collection__list-item">
+                        <img class="add1" src="img/grey-2.jpg" alt="There could be your project">
                         <h3>Подія 1</h3>
+                        <button>Підтримати</button>
                         <div class="creator-info"><img class="creator-foto" src="img/creator-foto.png"
                                 alt="creator-foto">
                             <h3 class="crator__name">User 1</h3>
                             <p class="creator-city">Manchester, Kentucky</p>
                         </div>
-                    </li>
-                    <li class="collection__list-item">
-                        <img src="img/grey-2.jpg" alt="There could be your project">
+                    </div>
+                    <div class="collection__list-item">
+                        <img class="add1" src="img/grey-2.jpg" alt="There could be your project">
                         <h3>Подія 2</h3>
+                        <button>Підтримати</button>
                         <div class="creator-info"><img class="creator-foto" src="img/creator-foto.png"
                                 alt="creator-foto">
                             <h3 class="crator__name">User 2</h3>
                             <p class="creator-city">Manchester, Kentucky</p>
                         </div>
-                    </li>
-                    <li class="collection__list-item">
-                        <img src="img/grey-2.jpg" alt="There could be your project">
+                    </div>
+                    <div class="collection__list-item">
+                        <img class="add1" src="img/grey-2.jpg" alt="There could be your project">
                         <h3>Подія 3</h3>
+                        <button>Підтримати</button>
                         <div class="creator-info"><img class="creator-foto" src="img/creator-foto.png"
                                 alt="creator-foto">
                             <h3 class="crator__name">User 3</h3>
                             <p class="creator-city">Manchester, Kentucky</p>
                         </div>
-                    </li>
-                    <li class="collection__list-item">
-                        <img src="img/grey-2.jpg" alt="There could be your project">
+                    </div>
+                    <div class="collection__list-item">
+                        <img class="add1" src="img/grey-2.jpg" alt="There could be your project">
                         <h3>Подія 4</h3>
+                        <button>Підтримати</button>
                         <div class="creator-info"><img class="creator-foto" src="img/creator-foto.png"
                                 alt="creator-foto">
                             <h3 class="crator__name">User 4</h3>
                             <p class="creator-city">Manchester, Kentucky</p>
                         </div>
-                    </li>
-                </ul>
-            </div>
-        </section> -->
+                    </div>
+                    </ul>
+                </div>
+        </section>
+        <div class="none container center-content">
+            <h1>Sign Up</h1>
+
+            <input type="text" placeholder="First Name" name="fname" required>
+            <input type="text" placeholder="Second Name" name="lname" required>
+            <input type="text" placeholder="Phone Number" name="phone" required>
+            <input type="text" placeholder="E-Mail" name="email" required>
+            <input type="password" placeholder="Password" name="psw" required>
+            <input type="text" placeholder="Country" name="country" required>
+            <input type="text" placeholder="City" name="city" required>
+
+            <button type="submit" id="register">Sign Up</button>
+        </div>
     </main>
     <script src="scripts/index.js"></script>
 </body>
