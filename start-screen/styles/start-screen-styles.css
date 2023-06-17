@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@900&family=Nunito:wght@700&display=swap');
 *, *::before,*::after{
     margin: 0;
     padding: 0;
@@ -31,6 +31,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .start_inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 8em 0em 0em 45em;
     width: 100%;
     max-width: 496px;
     text-align: center;
@@ -38,15 +42,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .big_title {
     font-family: 'Lexend';
-    font-weight: 700;
+    font-weight: 800;
     font-size: 36px;
     text-align: center;
 
     color: #D4E2DD;
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 .small_title {
@@ -58,10 +58,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #D4E2DD;
 
     opacity: 0.75;
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 /* header */
@@ -88,11 +84,15 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     font-weight: 700;
     color: #D4E2DD;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 11em;
 }
 
 .logo_image {
-    height: 18px;
-    margin-left: 2px;
+    height: 25px;
+    margin-left: 5px;
     vertical-align: middle;
     
 }
@@ -101,14 +101,14 @@ h1, h2, h3, h4, h5, h6 {
 .nav {
     padding-top: 20px;
     font-family: Lexend;
-    font-size: 16px;
+    font-size: 13px;
     text-transform: uppercase;
 }
 
 .nav_link {
     display: inline-block;
     vertical-align: top;
-    margin: 0 17px;
+    margin: 0 20px;
     color: #D4E2DD;
     text-decoration: none;
 }
