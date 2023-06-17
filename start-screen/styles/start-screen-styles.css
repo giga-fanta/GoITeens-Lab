@@ -90,6 +90,13 @@ h1, h2, h3, h4, h5, h6 {
     color: #D4E2DD;
 }
 
+.logo_image {
+    height: 18px;
+    margin-left: 2px;
+    vertical-align: middle;
+    
+}
+
 /* nav */
 .nav {
     padding-top: 20px;
