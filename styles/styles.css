@@ -366,3 +366,59 @@ button:hover {
         width: 99%;
     }
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 4em 8em;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lexend';
+}
+
+.logo-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 11em;
+    font-family: 'Lexend';
+}
+
+.social-media {
+    padding-top: 4em;
+}
+
+.con {
+    display: flex;
+    justify-content: space-between;
+    color: #717DA7;
+    font-size: 14px;
+}
+
+.con div {
+    padding: 0em 2em 2em 2em;
+}
+
+.hea {
+    font-size: 18px;
+    color: #31292F;
+}
+
+.proj,
+.event,
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    padding-top: 1em;
+}
